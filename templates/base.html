@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <link rel="stylesheet" href="{% static 'css/header.css' %}">
+    <link rel="stylesheet" href="{% static 'css/sections.css' %}">
+    <link rel="stylesheet" href="{% static 'css/responsive.css' %}">
+    <title>{% block title %}{% endblock title %} </title>
+</head>
+<body>
+
+
+    <header class="center-row">
+        <!--Left Side-->
+        <div class="logo center-row">
+            <a href="">
+                <h2>name</h2>
+            </a>
+        </div>
+        <!--Right Side-->
+        <nav>
+            <div class="nav-link center-row">
+                <a href="">About Me</a>
+                <a href="">Projects</a>
+                <a href="">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    {% block content %}
+
+    {% endblock content%}
+    
+</body>
+</html>

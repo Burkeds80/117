@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{%load static %}
+
+{% block title %}About Me{% endblock title %}
+
+
+{% block content %}
+
+<section class="about-section center-row">
+
+    <!--Left side-->
+    <div class="about-image-container center-row">
+        <img src="" alt="{% static 'img/logo/png' %}"alt="my logo or picture">
+    </div>
+
+    <!--Right side-->
+    <div class="about-description-container center-column">
+
+        <div class="center-column">
+            <h1>My rol as developer</h1>
+            <h2>My name</h2>
+        </div>
+
+        <p>Lorem ipsum dolor sit amet consectetur. Diam porttitor nisl lacinia id viverra dignissim
+            eu iaculis. In sit pharetra rutrum lacus vehicula nunc sit varius. Odio ultricies faucibus aliquam dis.
+            Dictumst adipiscing tincidunt nunc rhoncus. Quisque neque sapien feugiat id dapibus ut risus. Elit et
+            amet adipiscing diam quis quam et. Rhoncus sed urna dignissim ac porttitor eu arcu ut. Adipiscing turpis
+            risus nascetur felis in morbi sollicitudin id egestas. Adipiscing amet est tristique volutpat in.
+            Gravida purus aliquet tincidunt nibh ultrices faucibus. Eleifend amet id cursus phasellus. Non vulputate
+            condimentum adipiscing tempor justo metus turpis diam risus. Pellentesque in interdum ullamcorper amet
+            scelerisque velit. Sem nec duis in amet.</p>
+
+        
+        <div class="skill-list center-column">
+            <h2>My Skills</h2>
+
+            <div class="tags-container center-row">
+
+                <label class="label-text">Skill 1</label>
+                <label class="label-text">Skill 2</label>
+                <label class="label-text">Skill 3</label>
+                <label class="label-text">Skill 4</label>
+                <label class="label-text">Skill 5</label>
+                <label class="label-text">Skill 6</label>
+                <label class="label-text">Skill 7</label>
+                <label class="label-text">Skill 8</label>
+                <label class="label-text">Skill 9</label>
+                <label class="label-text">Skill 10</label>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+{% endblock content %}

@@ -1,0 +1,30 @@
+.about-section {
+    padding: 2rem;
+}
+
+
+/*Left Side*/
+.about-image-container {
+    width: 40%;
+}
+
+.about-image-container img {
+    width: 60%;
+}
+
+/*Right Side*/
+.about-description-container {
+    width: 60%;
+}
+
+.about-description-container p {
+    width: 80%;
+    margin: 4rem 0px;
+}
+
+.tags-container {
+    width: 80%;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 2rem;
+}

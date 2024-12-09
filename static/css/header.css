@@ -1,0 +1,36 @@
+header {
+    background-color: var(--surface-color);
+    height: 60px;
+    position: sticky;
+    top: 0px;
+}
+
+/*Header left side*/
+.logo {
+    width: 20%;
+    height: 100%;
+}
+
+
+/*Header right side*/
+nav {
+    width: 80%;
+    height: 100%;
+}
+
+.nav-link {
+    height: 100%;
+    width: 100%;
+}
+
+.nav-link a {
+    color: var(--neutral-color);
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin: 2%;
+    padding: 1% 2%;
+}
+
+.nav-link a:hover {
+    border-bottom: solid 2px var(--primary-color);
+}
